@@ -1,4 +1,4 @@
-# Render Blade string for Laravel
+#  Render Blade on the fly. 
 
 [![Tests](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/tests.yml)
 [![Formats](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/formats.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/formats.yml)
