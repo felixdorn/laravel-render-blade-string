@@ -1,6 +1,6 @@
 {
-    "name": "felixdorn/:name",
-    "description": ":description",
+    "name": "felixdorn/laravel-render-blade-string",
+    "description": "laravel-render-blade-string",
     "license": "MIT",
     "authors": [
         {
@@ -19,14 +19,9 @@
         "symfony/var-dumper": "^5.2.0"
     },
     "autoload": {
-        "psr-4": {
-            "Felix\\:namespace\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Felix\\:namespace\\Tests\\": "tests/"
-        }
+        "files": [
+            "src/functions.php"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
