@@ -1,6 +1,6 @@
 {
     "name": "felixdorn/laravel-render-blade-string",
-    "description": "laravel-render-blade-string",
+    "description": "A function that can render Blade on the fly. ",
     "license": "MIT",
     "authors": [
         {
