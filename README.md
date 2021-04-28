@@ -25,10 +25,10 @@ code.
 __renderBlade($request->get('blade'));
 ```
 
-**This package is meant to allow other package to compile blade on the fly** not for you to use in your application
+**This package is meant to allow other packages to compile blade on the fly** not for you to use in your application
 directly as this could have enormous security implication if misused.
 
-An example of what this package is meant for [here](https://github.com/felixdorn/laravel-render-blade-string)
+An example of what this package is meant for [here](https://github.com/laravel-honda/pushed-resources/blob/master/src/Resources/Blade.php)
 
 ## Usage
 
