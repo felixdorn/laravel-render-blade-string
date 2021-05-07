@@ -1,4 +1,4 @@
-#  Render Blade on the fly. 
+# Render Blade on the fly.
 
 [![Tests](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/tests.yml)
 [![Formats](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/formats.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/formats.yml)
@@ -28,7 +28,8 @@ __renderBlade($request->get('blade'));
 **This package is meant to allow other packages to compile blade on the fly** not for you to use in your application
 directly as this could have enormous security implication if misused.
 
-An example of what this package is meant for [here](https://github.com/laravel-honda/pushed-resources/blob/master/src/Resources/Blade.php)
+An example of what this package is meant
+for [here](https://github.com/laravel-honda/pushed-resources/blob/master/src/Resources/Blade.php)
 
 ## Usage
 
@@ -44,5 +45,5 @@ __renderBlade('@if ($something) Yo! @endif', [
 composer test
 ```
 
-**laravel-render-blade-string** was created by **[Félix Dorn](https://twitter.com/afelixdorn)** under
+**Laravel Render Blade String** was created by **[Félix Dorn](https://twitter.com/afelixdorn)** under
 the **[MIT license](https://opensource.org/licenses/MIT)**.

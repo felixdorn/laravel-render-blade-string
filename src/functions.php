@@ -1,11 +1,6 @@
 <?php
 
-/**
- * @param mixed[] $__data
- *
- * @return false|string
- */
-function __renderBlade(string $__php, array $__data)
+function __renderBlade(string $__php, array $__data): string
 {
     $__data = array_merge([
         '__env' => app('view'),
@@ -25,5 +20,5 @@ function __renderBlade(string $__php, array $__data)
         throw $e;
     }
 
-    return ob_get_clean();
+    return ob_get_clean() ?: '';
 }
