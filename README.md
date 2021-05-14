@@ -8,7 +8,7 @@
 
 ## Installation
 
-> Requires [PHP 7.4.0+](https://php.net/releases)
+> Requires [PHP 8.0.0+](https://php.net/releases)
 
 You can install the package via composer:
 
