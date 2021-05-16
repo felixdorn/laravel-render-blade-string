@@ -11,7 +11,6 @@ function __renderBlade(string $__php, array $__data = []): string
     ob_start();
     extract($__data, EXTR_SKIP);
     try {
-        // Refer to the function name
         eval('?>' . $__php);
     } catch (Throwable $e) {
         while (ob_get_level() > $obLevel) {
