@@ -1,6 +1,6 @@
 <?php
 
-function __renderBlade(string $__php, array $__data): string
+function __renderBlade(string $__php, array $__data = []): string
 {
     $__data = array_merge([
         '__env' => app('view'),
