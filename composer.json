@@ -15,7 +15,7 @@
         "pestphp/pest": "^1.21",
         "orchestra/testbench": "^6.24",
         "friendsofphp/php-cs-fixer": "^3",
-        "phpstan/phpstan": "^1.42",
+        "phpstan/phpstan": "^1.4",
         "symfony/var-dumper": "^5.4"
     },
     "autoload": {
@@ -27,7 +27,10 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "scripts": {
         "lint": "php-cs-fixer fix -v",
