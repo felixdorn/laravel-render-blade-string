@@ -4,16 +4,14 @@ on: ['push', 'pull_request']
 
 jobs:
   ci:
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       fail-fast: true
       matrix:
-        os: [ubuntu-latest]
         php: [8.0, 8.1]
-        dependency-version: [prefer-stable]
-
-    name: Formats PHP${{ matrix.php }} - ${{ matrix.os }} - ${{ matrix.dependency-version }}
+        
+    name: Formats PHP${{ matrix.php }}
 
     steps:
 
@@ -35,7 +33,7 @@ jobs:
         coverage: pcov
 
     - name: Install Composer dependencies
-      run: composer update --${{ matrix.dependency-version }} --no-interaction --prefer-dist
+      run: composer update --prefer-latest --no-interaction --prefer-dist
 
     - name: Coding Style Checks
       run: composer test:lint
