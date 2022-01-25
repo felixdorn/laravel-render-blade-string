@@ -25,6 +25,8 @@ code.
 __renderBlade($request->get('blade'));
 ```
 
+The double underscores in the function name are here to remind you that this a somewhat **dirty hack** and you should try to avoid doing this as much as possible.
+
 ## Usage
 
 ```php
