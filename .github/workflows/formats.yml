@@ -29,9 +29,7 @@ jobs:
       with:
         php-version: ${{ matrix.php }}
         extensions: dom, mbstring, zip
-        tools: prestissimo
-        coverage: pcov
-
+        
     - name: Install Composer dependencies
       run: composer update --prefer-stable --no-interaction --prefer-dist
 
