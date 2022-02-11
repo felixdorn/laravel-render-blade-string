@@ -1,3 +1,4 @@
+**DISCLAIMER: This package won't support Laravel 9.x and future versions as this is now part of the framework, see `Blade::render`.**
 # Render Blade on the fly.
 
 [![Tests](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/tests.yml/badge.svg?branch=master)](https://github.com/felixdorn/laravel-render-blade-string/actions/workflows/tests.yml)
